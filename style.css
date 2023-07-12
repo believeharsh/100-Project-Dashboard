@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Montserrat:wght@200&family=Orbitron&family=PT+Sans+Narrow&family=PT+Sans:ital@0;1&family=Poppins:wght@200&family=Space+Mono:ital@1&family=Tajawal:wght@300&family=Tinos&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Montserrat:wght@200&family=Orbitron&family=PT+Sans+Narrow&family=PT+Sans:ital@0;1&family=Pacifico&family=Poppins:wght@200&family=Space+Mono:ital@1&family=Tajawal:wght@300&family=Tinos&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Chakra+Petch:wght@300&family=Dancing+Script:wght@500&family=Montserrat:wght@200&family=Orbitron&family=PT+Sans+Narrow&family=PT+Sans:ital@0;1&family=Pacifico&family=Poppins:wght@200&family=Rubik+Dirt&family=Space+Mono:ital@1&family=Tajawal:wght@300&family=Tinos&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Chakra+Petch:wght@300&family=Dancing+Script:wght@500&family=Montserrat:wght@200&family=Orbitron&family=PT+Sans+Narrow&family=PT+Sans:ital@0;1&family=Pacifico&family=Poppins:wght@200&family=Rubik+Dirt&family=Space+Mono:ital@1&family=Tajawal:wght@300&family=Tinos&family=Ubuntu:wght@300&family=Ysabeau+Office:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -45,7 +47,8 @@
 
 .text-center header h5 {
     margin: 7px 3px;
-    font-size: 15px;
+    font-size: 19px;
+    font-family: 'Ysabeau Office', sans-serif;
 }
 
 section {
