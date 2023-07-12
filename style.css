@@ -39,10 +39,14 @@
     margin-top: 50px;
 
 }
+.navigation-container{
+    margin-top: -29px;
+}
 
 .text-center header img {
     height: 88px;
     border-radius: 50%;
+    margin-left: 10px;
 }
 
 .text-center header h5 {
@@ -58,9 +62,10 @@ section {
 .navigation-container li {
 
     list-style: none;
-
+    margin: 6px 0px;
 
 }
+
 
 .navigation-container li a {
     color: white;
