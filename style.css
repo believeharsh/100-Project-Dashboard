@@ -387,3 +387,28 @@ margin-bottom: 4px;
 .floating-btn:focus {
     outline: none;
 }
+
+/* media queries section  */
+@media only screen and (max-width: 600px) {
+    .page-container{
+      display: none;
+    }
+    .navbar{
+  
+        left: 0%;
+        top: 0px;
+        width:100%;
+    }
+    .adverdtise-pic img {
+       
+        /* width: 90%; */
+      
+    }
+    .adverdtise-pic img {
+        position: relative;
+        top: 5px;
+        width: 90%;
+        height: 300px;
+    }
+    
+  }
