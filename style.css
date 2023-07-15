@@ -280,7 +280,7 @@ font-family: "Muli";
 position: relative;
 height: 235px;
 width: 52px;
-/* max-width: calc(100% - 10px); */
+
 right: -25%;
 }
 
@@ -296,40 +296,6 @@ right: -25%;
 
 .social-media-panel button.close-btn:focus {
     outline: none;
-}
-
-.social-media-panel p {
-    background-color: #001f61;
-    border-radius: 0 0 10px 10px;
-    color: #fff;
-    font-size: 14px;
-    line-height: 18px;
-    padding: 2px 17px 6px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin: 0;
-    transform: translateX(-50%);
-    text-align: center;
-    width: 235px;
-}
-
-.social-media-panel p i {
-    margin: 0 5px;
-}
-
-.social-panel p a {
-    color: #ff7500;
-    text-decoration: none;
-}
-
-.social-media-panel h4 {
-    margin: 20px 0;
-    color: #97a5ce;
-    font-family: "Muli";
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
 }
 
 .social-panel ul {
