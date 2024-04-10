@@ -1,14 +1,13 @@
 import React from 'react'
-import TellMeJoke from '../App/Tell-me-joke/TellMeJoke'
+import Navbar from '../Navbar/Navbar'
+import Sidebar from '../Sidebar/Sidebar'
+import ProjectContainer from '../ProjectContainer/ProjectContainer'
 
 const MainContainer = () => {
   return (
-  <>
-       <div className="">
-        <TellMeJoke/>
-       </div>
-
-  </>
+    <>
+      <h1>Harsh Dahiya </h1>
+    </>
   )
 }
 
