@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="">
-        <Dashborad/>
+        <MainContainer/>
       </div>
    
     </>

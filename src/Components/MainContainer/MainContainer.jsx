@@ -1,21 +1,21 @@
-import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import Sidebar from '../Sidebar/Sidebar'
-import ProjectContainer from '../ProjectContainer/ProjectContainer'
+import React from "react";
+import Navbar from "../Navbar/Navbar";
+import Sidebar from "../Sidebar/Sidebar";
+import ProjectContainer from "../ProjectContainer/ProjectContainer";
 
 const MainContainer = () => {
   return (
     <>
-    <div className="">
-      <Navbar/>
-      <div className="fixed top-0 left-0 h-full w-full flex">
-        <Sidebar/>
-        <ProjectContainer/>
-      </div>
-    </div>
-     
-    </>
-  )
-}
+      <div className="">
+        <Navbar />
 
-export default MainContainer
+        <div className="fixed top-12 left-0 w-full h-full flex">
+          <Sidebar />
+          <ProjectContainer />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default MainContainer;

@@ -1,16 +1,17 @@
-import React from 'react'
+import React from "react";
+import CommonProjectDiv from "../CommonProject/CommonProjectDiv";
+import ProjectData from "../ProjectsData/ProjectsData";
 
 const ProjectContainer = () => {
   return (
-   <>
- <div className="flex-1 bg-gray-100 " >
-      <div className="container mx-auto px-4 py-8">
-        <h2 className="text-2xl font-bold mb-4">Projects Container</h2>
-
+    <>
+      <div className="flex-1 bg-slate-900 h-full border-white border-[1px] rounded-xl">
+        <div className="m-[10px]  ml-2 mt-2">
+          <CommonProjectDiv ProjectData={ProjectData}/>
+        </div>
       </div>
-    </div>
-   </>
-  )
-}
+    </>
+  );
+};
 
-export default ProjectContainer
+export default ProjectContainer;
