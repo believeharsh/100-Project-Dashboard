@@ -1,11 +1,12 @@
 import React from "react";
 
+
 const Sidebar = () => {
   return (
     <>
-      <div class="bg-gray-900 text-white h-full w-48 md:w-72">
-      <span class="block px-4 py-2">Sidebar</span>
-
+     <div className="bg-gray-900 text-white h-full" style={"--sidebar-width: var(--sidebar-width)"}>
+      <span className="block px-4 py-2">Sidebar</span>
+  
     </div>
     </>
   );

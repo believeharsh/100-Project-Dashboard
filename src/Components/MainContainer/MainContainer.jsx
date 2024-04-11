@@ -6,7 +6,14 @@ import ProjectContainer from '../ProjectContainer/ProjectContainer'
 const MainContainer = () => {
   return (
     <>
-      <h1>Harsh Dahiya </h1>
+    <div className="">
+      <Navbar/>
+      <div className="fixed top-0 left-0 h-full w-full flex">
+        <Sidebar/>
+        <ProjectContainer/>
+      </div>
+    </div>
+     
     </>
   )
 }

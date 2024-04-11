@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --sidebar-width: 180px; /* Set the default width of the sidebar */
+  }
+
+  @media (min-width: 768px) {
+    /* Adjust sidebar width for medium screens and above */
+    :root {
+      --sidebar-width: 240px; /* Change the width of the sidebar for medium screens */
+    }
+  }
