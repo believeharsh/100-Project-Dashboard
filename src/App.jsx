@@ -1,4 +1,3 @@
-import Dashborad from "./Components/Dashborad"
 import MainContainer from "./Components/MainContainer/MainContainer"
 
 function App() {

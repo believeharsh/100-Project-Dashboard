@@ -9,9 +9,9 @@ const MainContainer = () => {
       <div className="">
         <Navbar />
 
-        <div className="fixed top-12 left-0 w-full h-full flex">
-          <Sidebar />
-          <ProjectContainer />
+        <div className="top-12 left-0 w-full flex overflow-visible">
+          <Sidebar className="h-screen overflow-y-auto" />
+          <ProjectContainer className="overflow-auto"/>
         </div>
       </div>
     </>
