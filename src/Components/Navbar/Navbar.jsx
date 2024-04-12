@@ -1,12 +1,12 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaGithub} from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
   return (
     <>
-      <header className="flex fixed flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-2 dark:bg-gray-800 z-10">
+      <header className="flex fixed flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm py-2 z-10  bg-slate-900">
         <nav
           className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
           aria-label="Global"
@@ -14,17 +14,17 @@ const Navbar = () => {
          
           <div className="flex items-center justify-between">
           <div
-            className="dark:active:bg-blue-800 dark:hover:bg-slate-800 rounded-full hover:bg-gray-300 active:bg-blue-700 p-1 mx-3"
+            className="dark:active:bg-blue-800 dark:hover:bg-slate-800 rounded-full hover:bg-gray-300 active:bg-blue-700 p-1 mx-1"
             id="menuButton "
           >
             <IoMenu className=" text-2xl text-black dark:text-white " />
           </div>
-            <a
-              className="flex-none text-xl font-semibold dark:text-white font-serif"
-              href="#"
+            <div
+              className="flex-none text-sm  dark:text-white bg-slate-800 border-slate-700 border-[0.5px] px-1 py-1 rounded-xl"
+              
             >
-              100-Projects-DashBoard
-            </a>
+              100-Projects-DashBoard By HarshDahiya✨
+            </div>
             <div className="sm:hidden">
               <button
                 type="button"

@@ -79,5 +79,46 @@ const ProjectData = [
       link: 'https://replit.com/@believeharsh/3D-Box-Animation',
       codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/3D-Animation-Box'
     },
+    {
+      id: 11,
+      count:11,
+      name: 'React-Routing',
+      image: "/100-Apps-Images/11-React-Routing.png",
+      link: 'https://routing-react-reactjs.netlify.app',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/React-Routing'
+    },
+    {
+      id: 12,
+      count:12,
+      name: 'Theme-Switcher',
+      image: "/100-Apps-Images/12-Theme-Switcher.png",
+      link: 'https://context-api-theme-switcher.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/Theme-Switcher'
+    },
+    {
+      id: 13,
+      count:13,
+      name: 'Fruit-Stock Manager',
+      image: "/100-Apps-Images/13-Fruit-Stock.png",
+      link: 'https://fruite-stock-operator.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/ThinkInReact'
+    },
+    {
+      id: 14,
+      count:14,
+      name: 'BMI-Calculator',
+      image: "/100-Apps-Images/14-BMI-Calculator.png",
+      link: 'https://apna-bmi-calculator.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/BMI-Calculator'
+    },
+    {
+      id: 15,
+      count:15,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    
   ]
   export default ProjectData
