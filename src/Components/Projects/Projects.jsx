@@ -12,10 +12,10 @@ const Projects = ({ count, name, image, link, codeLink }) => {
           {/* <div className="flex justify-center ">
             <div className="w-[110px] mx-1 cursor-pointer">{name}</div>
           </div> */}
-          <div class="relative flex justify-center ">
-            <span class=" z-10 w-[110px] mx-1 cursor-pointer group">
+          <div className=" flex justify-center ">
+            <span className=" z-10 w-[110px] mx-1 cursor-pointer group relative">
               {name}
-              <div class="absolute inset-x-0  h-0.5 bg-white w-0 transition-all duration-300 group-hover:w-full"></div>
+              <div className="absolute inset-x-0  h-0.5 bg-white w-0 transition-all duration-300 group-hover:w-full"></div>
             </span>
           </div>
         </div>
@@ -30,9 +30,9 @@ const Projects = ({ count, name, image, link, codeLink }) => {
         <div className="flex gap-[52px]">
           <div className="flex flex-col ">
             <a href={`${link}`} target="_blank" className="relative">
-            <span class=" z-10 w-[110px] mx-1 cursor-pointer group">
+            <span className=" z-10 w-[110px] mx-1 cursor-pointer group">
               Link
-              <div class="absolute inset-x-0  h-0.5 bg-white w-0 transition-all duration-300 group-hover:w-full"></div>
+              <div className="absolute inset-x-0  h-0.5 bg-white w-0 transition-all duration-300 group-hover:w-full"></div>
             </span>
             </a>
             <a className="mx-auto mt-2" href={`${link}`} target="_blank">
@@ -41,9 +41,9 @@ const Projects = ({ count, name, image, link, codeLink }) => {
           </div>
           <div className="flex flex-col ">
             <a href={`${codeLink}`} target="_blank" className="relative">
-            <span class=" z-10 w-[110px] mx-1 cursor-pointer group">
+            <span className=" z-10 w-[110px] mx-1 cursor-pointer group">
               Code
-              <div class="absolute inset-x-0  h-0.5 bg-white w-0 transition-all duration-300 group-hover:w-full"></div>
+              <div className="absolute inset-x-0  h-0.5 bg-white w-0 transition-all duration-300 group-hover:w-full"></div>
             </span>
             </a>
             <a className="mx-auto mt-2" href={`${codeLink}`} target="_blank">
