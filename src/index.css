@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --sidebar-width: 180px; /* Set the default width of the sidebar */
-  }
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
 
-  @media (min-width: 768px) {
-    /* Adjust sidebar width for medium screens and above */
-    :root {
-      --sidebar-width: 240px; /* Change the width of the sidebar for medium screens */
-    }
-  }
+::-webkit-scrollbar-track {
+  background: rgb(13, 17, 46); /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fffdfd; /* Color of the scrollbar thumb */
+  border-radius: 1px; /* Border radius of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c0c0c0;
+   /* Color of the scrollbar thumb on hover */
+}

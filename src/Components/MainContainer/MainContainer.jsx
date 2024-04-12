@@ -3,15 +3,16 @@ import Navbar from "../Navbar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";
 import ProjectContainer from "../ProjectContainer/ProjectContainer";
 
+
 const MainContainer = () => {
   return (
     <>
       <div className="">
-        <Navbar />
+        <Navbar className="" />
 
-        <div className="top-12 left-0 w-full flex overflow-visible">
-          <Sidebar className="h-screen overflow-y-auto" />
-          <ProjectContainer className="overflow-auto"/>
+        <div className="relative top-[36px] left-0 w-full flex overflow-visible ">
+          <Sidebar className="h-screen pt-2" />
+          <ProjectContainer className="scrollbar mt-3"/>
         </div>
       </div>
     </>

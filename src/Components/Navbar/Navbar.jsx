@@ -6,7 +6,7 @@ import { IoMenu } from "react-icons/io5";
 const Navbar = () => {
   return (
     <>
-      <header className="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-2 dark:bg-gray-800">
+      <header className="flex fixed flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-2 dark:bg-gray-800 z-10">
         <nav
           className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
           aria-label="Global"

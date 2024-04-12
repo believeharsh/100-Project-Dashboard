@@ -19,21 +19,21 @@ const Projects = ({ count , name, image, link, codeLink }) => {
         />
       </div>
       <div className="flex flex-col ">
-        <a href={`${link}`} target="blank">
+        <a href={`${link}`} target="_blank">
           LInk
         </a>
-        <a className="mx-auto mt-2" href={`${link}`} target="blank">
+        <a className="mx-auto mt-2" href={`${link}`} target="_blank">
           <FaLink />
         </a>
       </div>
       <div className="flex flex-col ">
-        <a href={`${codeLink}`} target="blank">
+        <a href={`${codeLink}`} target="_blank">
           Code
         </a>
         <a
           className="mx-auto mt-2"
           href={`${codeLink}`}
-          target="blank"
+          target="_blank"
         >
           <FaCode />
         </a>
