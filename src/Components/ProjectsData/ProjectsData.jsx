@@ -119,6 +119,127 @@ const ProjectData = [
       link: 'https://twitterclonebytailwind.netlify.app/',
       codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
     },
+    {
+      id: 16,
+      count:16,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+   
+    {
+      id: 17,
+      count:17,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 18,
+      count:18,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 19,
+      count:19,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 20,
+      count:20,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 21,
+      count:21,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 22,
+      count:22,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 23,
+      count:23,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 24,
+      count:24,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 25,
+      count:25,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 26,
+      count:26,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 27,
+      count:27,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 28,
+      count:28,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 29,
+      count:29,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
+    {
+      id: 30,
+      count:30,
+      name: 'Twitter-Clone',
+      image: "/100-Apps-Images/15-Twitter-Clone.png",
+      link: 'https://twitterclonebytailwind.netlify.app/',
+      codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/TwitterClone'
+    },
     
   ]
   export default ProjectData

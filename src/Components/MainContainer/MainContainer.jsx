@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";
 import ProjectContainer from "../ProjectContainer/ProjectContainer";
+import Fotter from "../Fotter/Fotter";
 
 const MainContainer = () => {
   return (
@@ -13,6 +14,7 @@ const MainContainer = () => {
           <Sidebar className="" />
           <ProjectContainer />
         </div>
+        
       </div>
     </>
   );
