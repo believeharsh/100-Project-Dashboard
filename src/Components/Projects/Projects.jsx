@@ -8,10 +8,6 @@ const Projects = ({ count, name, image, link, codeLink }) => {
       <div className="flex justify-between mx-auto text-white px-5 py-4 text-2xl hover:border-gray-600 hover:border-[0.1px] hover:rounded-xl">
         <div className="flex gap-[52px] cursor-pointer">
           <div className="">{count + "."}</div>
-
-          {/* <div className="flex justify-center ">
-            <div className="w-[110px] mx-1 cursor-pointer">{name}</div>
-          </div> */}
           <div className=" flex justify-center ">
             <span className=" z-10 w-[110px] mx-1 cursor-pointer group relative">
               {name}
@@ -23,30 +19,30 @@ const Projects = ({ count, name, image, link, codeLink }) => {
         <div className="rounded-xl p-[5.5px] border-gray-500 border-double border-[1.8px]">
           <img
             className="w-[260px] h-[120px] rounded-sm "
-            src={`${image}`}
+            src={image}
             alt=""
           />
         </div>
         <div className="flex gap-[52px]">
           <div className="flex flex-col ">
-            <a href={`${link}`} target="_blank" className="relative">
+            <a href={link} target="_blank" className="relative">
             <span className=" z-10 w-[110px] mx-1 cursor-pointer group">
               Link
               <div className="absolute inset-x-0  h-0.5 bg-white w-0 transition-all duration-300 group-hover:w-full"></div>
             </span>
             </a>
-            <a className="mx-auto mt-2" href={`${link}`} target="_blank">
+            <a className="mx-auto mt-2" href={link} target="_blank">
               <FaLink />
             </a>
           </div>
           <div className="flex flex-col ">
-            <a href={`${codeLink}`} target="_blank" className="relative">
+            <a href={codeLink} target="_blank" className="relative">
             <span className=" z-10 w-[110px] mx-1 cursor-pointer group">
               Code
               <div className="absolute inset-x-0  h-0.5 bg-white w-0 transition-all duration-300 group-hover:w-full"></div>
             </span>
             </a>
-            <a className="mx-auto mt-2" href={`${codeLink}`} target="_blank">
+            <a className="mx-auto mt-2" href={codeLink} target="_blank">
               <FaCode />
             </a>
           </div>
