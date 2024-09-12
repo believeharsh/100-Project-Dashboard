@@ -123,9 +123,9 @@ const ProjectData = [
       id: 16,
       count:16,
       name: "ToDo-React-App",
-      image: "/100-Apps-Images/16-ToDo-React-App.png",
+      image: "/100-Apps-Images/16-ToDoReact.png",
       link: "https://believeharsh-to-do-app.vercel.app/",
-      codeLink: "https://github.com/believeharsh/100-Days-100-Project/tree/master/16-ToDo-App-In-React"
+      codeLink: "https://github.com/believeharsh/To-Do-App-In-React"
     },
     {
       id: 17,
