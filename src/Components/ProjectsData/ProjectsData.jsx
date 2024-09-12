@@ -18,7 +18,7 @@ const ProjectData = [
     {
       id: 3,
       count:3,
-      name: 'Tell-Me-Joke',
+      name: 'Mood-Calender',
       image: "/100-Apps-Images/3-Mood-Calendar.png",
       link: 'https://replit.com/@believeharsh/Mood-Calander',
       codeLink: 'https://github.com/believeharsh/100-Days-100-Project/tree/master/3-2023-Mood-Calender'
